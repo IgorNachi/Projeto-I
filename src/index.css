@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px; /* Espaçamento entre a borda */
+  max-width: 80%; 
+  height: 800px; 
+}
+div {
+  background-color: rgb(255, 19, 19);}
+
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(55, 53, 69);
+}
+
+ul.navbar li {
+    float: center;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #111;
+}
+
+
+
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #b41818;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #04417e;
+  }
+  
+  .Integrantes {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .Nomes {
+    font-size: 16px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+  } .Matrícula{
+    font-size: 16px;
+    color: darkslateblue; 
+    font-family: 'Open Sans', sans-serif;
+ }
+ .Função{
+    font-size: 16px;
+    color: rgb(15, 189, 38); 
+    font-family: 'Open Sans', sans-serif;
+ }
+.button{
+display:inline-block;
+padding: 10px 20px;
+background: color #4caf50;
+color: white;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+cursor: pointer; 
+  
+}
+.button:hover{
+  background-color: #45a049;
+}
+.button:active{
+background-color: #3e8e41;
+
+}
